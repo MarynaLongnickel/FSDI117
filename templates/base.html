@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %} 
+            My Portfolio
+        {% endblock %}
+    </title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/section.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="center">
+        <nav>
+            <!-- Hamburger button -->
+            <input type="checkbox" id="nav-check">
+
+            <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+
+            <!-- Links -->
+            <div class="nav-link center">
+                <a href="{% url 'about' %}">About me</a>
+                <a href="{% url 'projects' %}">Projects</a>
+                <a href="{% url 'experience' %}">Experience</a>
+                <a href="{% url 'contact' %}">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="{% url 'home' %}">
+            <h2>Maryna Longnickel</h2>
+        </a>
+        <nav class="nav-footer center">
+            <a href="{% url 'about' %}">About Me</a>
+            <a href="{% url 'projects' %}">Projects</a>
+            <a href="{% url 'experience' %}">Experience</a>
+            <a href="{% url 'contact' %}">Contact</a>
+        </nav>
+    </footer>
+
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

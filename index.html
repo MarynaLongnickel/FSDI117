@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Lobster&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/section.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Maryna Longnickel | Data & Analytics Engineer</title>
+</head>
+
+<body>
+
+    <header class="center">
+        <nav>
+            <!-- Hamburger button -->
+            <input type="checkbox" id="nav-check">
+            <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+
+            <!-- Menu links -->
+            <div class="nav-link center">
+                <a href="#about">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about" class="about-section center">
+        <div class="about-image-container center">
+            <img src="./img/avatar-img.jpeg" alt="Maryna Longnickel">
+            <a href="assets/Maryna_Longnickel_Resume.pdf" download>
+                <button>Download Full Resume</button>
+            </a>
+        </div>
+
+        <div class="about-description-container center-column">
+            <div class="center-column">
+                <h1>Data & Analytics Engineer</h1>
+                <h2>Maryna Longnickel</h2>
+            </div>
+
+            <p>
+                I’m a versatile and self-driven Data Engineer with a passion for solving complex problems through efficient and creative solutions. I’ve designed scalable data models, boosting accessibility by 25% and performance by 30%, and automated Tableau monitoring, reducing manual effort by 80%. I thrive on improving data reliability, optimizing pipelines, and enabling business teams to make better decisions through accessible, high-quality data.
+            </p>
+            <p>
+                Originally from Ukraine, I bring a global perspective and a strong work ethic to everything I do. Outside of work, I’m an adrenaline junkie at heart. I’ve raced motorcycles and love the thrill of speed and precision on two wheels. For about a year, I used to skydive nearly every weekend, chasing the unmatched rush of freefall and the serenity of soaring above the earth. I seek out experiences that challenge me physically and mentally, whether it’s racing, jumping from planes, or testing my limits in new ways.
+            </p>
+            <p>
+                At the same time, I deeply value balance and downtime. I relax and recharge with my two giant Tamaskan dogs, Squall and Lyra, who bring joy, energy, and calm to my life. Whether I’m diving into complex data problems or exploring the next adrenaline-fueled adventure, I approach life with curiosity, dedication, and a love for both high-intensity challenges and quiet, meaningful moments.
+            </p>
+        </div>
+    </section>
+
+    <section class="skills-section center-column">
+        <h2>Skills</h2>
+        <div class="skills-list center">
+            <label class="text-label">Python</label>
+            <label class="text-label">SQL</label>
+            <label class="text-label">dbt</label>
+            <label class="text-label">Airflow</label>
+            <label class="text-label">Redshift</label>
+            <label class="text-label">Snowflake</label>
+            <label class="text-label">AWS</label>
+            <label class="text-label">Docker</label>
+            <label class="text-label">Terraform</label>
+            <label class="text-label">Tableau</label>
+            <label class="text-label">Pandas</label>
+            <label class="text-label">Git</label>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section center-column">
+        <h2>Projects</h2>
+
+        <div class="projects-list">
+
+            <div class="project-card">
+                <a href="https://github.com/MarynaLongnickel/dbt-redshift-pipeline" target="_blank">
+                    <img src="./img/picture-1.jpg" alt="DBT Redshift Pipeline">
+                    <p><strong>DBT + Redshift Data Pipeline</strong></p>
+                    <p>End-to-end data modeling and transformation pipeline using dbt and Redshift with CI/CD and SQLFluff integration.</p>
+                    <p>2024</p>
+                    <div class="skills-container center">
+                        <label class="text-label">dbt</label>
+                        <label class="text-label">Redshift</label>
+                        <label class="text-label">SQL</label>
+                    </div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://github.com/MarynaLongnickel/tableau-monitoring" target="_blank">
+                    <img src="./img/picture-2.jpg" alt="Tableau Monitoring Automation">
+                    <p><strong>Tableau Monitoring Automation</strong></p>
+                    <p>Automated dashboard refresh and governance checks for 50+ Tableau workbooks using Python and AWS ECS.</p>
+                    <p>2023</p>
+                    <div class="skills-container center">
+                        <label class="text-label">Python</label>
+                        <label class="text-label">ECS</label>
+                        <label class="text-label">Tableau</label>
+                    </div>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <a href="https://github.com/MarynaLongnickel/ml-subscription-forecast" target="_blank">
+                    <img src="./img/picture-3.jpg" alt="Subscription Forecasting Model">
+                    <p><strong>Subscription Retention ML Model</strong></p>
+                    <p>Machine learning model predicting subscription cancellations 30 days in advance to enable proactive retention strategies.</p>
+                    <p>2022</p>
+                    <div class="skills-container center">
+                        <label class="text-label">Python</label>
+                        <label class="text-label">ML</label>
+                        <label class="text-label">Docker</label>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="experience" class="experience-section center-column">
+        <h2>Experience | Education</h2>
+
+        <div class="experience-list">
+
+            <div class="experience-card">
+                <p><strong>Webconnex</strong></p>
+                <p>Senior Data Engineer</p>
+                <p>Designed scalable data models and automated Tableau monitoring, improving efficiency by 25% and cutting manual effort by 80%.</p>
+                <p>Dec 2022 – Feb 2025</p>
+                <div class="skills-container center">
+                    <label class="text-label">Python</label>
+                    <label class="text-label">dbt</label>
+                    <label class="text-label">AWS</label>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <p><strong>Sticky.io</strong></p>
+                <p>Data Engineer</p>
+                <p>Developed ETL pipelines processing millions of transactions daily and deployed ML models that increased retention by 8%.</p>
+                <p>Mar 2021 – Nov 2022</p>
+                <div class="skills-container center">
+                    <label class="text-label">SQL</label>
+                    <label class="text-label">Python</label>
+                    <label class="text-label">Redshift</label>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <p><strong>Slingshot Aerospace</strong></p>
+                <p>Data & ML Engineer</p>
+                <p>Developed Spark-based data ingestion and microservices for 'Orbital Atlas', improving threat detection accuracy and scalability.</p>
+                <p>Mar 2019 – Jul 2020</p>
+                <div class="skills-container center">
+                    <label class="text-label">Spark</label>
+                    <label class="text-label">Python</label>
+                    <label class="text-label">AWS</label>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <p><strong>California State University</strong></p>
+                <p>Applied Mathematics & Physics</p>
+                <p>Two Bachelor’s degrees in Applied Math and Physics, focusing on problem-solving, quantitative analysis, and real-world modeling.</p>
+                <p>Jun 2011 – Aug 2014</p>
+                <div class="skills-container center">
+                    <label class="text-label">Modeling</label>
+                    <label class="text-label">Analysis</label>
+                    <label class="text-label">Stats</label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section center-column">
+        <h2>Contact Me</h2>
+        <p>Let’s connect! Reach out for collaboration or data projects.</p>
+
+        <form class="contact-form" action="#" method="POST">
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea name="message" placeholder="Message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+        <div class="contact-links center">
+            <a href="mailto:maryna.longnickel@gmail.com">maryna.longnickel@gmail.com</a> |
+            <a href="https://github.com/MarynaLongnickel" target="_blank">GitHub</a> |
+            <a href="https://linkedin.com/in/maryna-longnickel" target="_blank">LinkedIn</a> |
+            <a href="https://medium.com/@MarynaL" target="_blank">Medium</a>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#about">
+            <h2>Maryna Longnickel</h2>
+        </a>
+        <nav class="nav-footer center">
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

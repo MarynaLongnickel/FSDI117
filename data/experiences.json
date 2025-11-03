@@ -1,0 +1,23 @@
+[
+  {
+    "entity": "Webconnex",
+    "title": "Senior Data Engineer",
+    "description": "Designed and optimized scalable data models for retention and revenue analysis, improving data accessibility by 25% and performance insights by 30%. Automated Tableau monitoring and data governance processes, reducing manual maintenance by 80%. Implemented CI/CD in dbt with SQLFluff linting and dbt parse testing, decreasing production errors by 40%. Authored internal documentation and tutorials that cut onboarding time by 50%.",
+    "period": "2022-12 – 2025-02",
+    "technologies": ["Python", "SQL", "dbt", "Redshift", "Airflow", "AWS", "ECS", "Tableau", "Git"]
+  },
+  {
+    "entity": "Sticky.io",
+    "title": "Data Engineer",
+    "description": "Built ETL pipelines in Python and SQL processing millions of transactions daily, reducing data prep time by 40%. Improved revenue by 4–5% and recurring order approval rates by up to 5% through machine learning models optimizing transaction timing. Developed predictive models that increased retention by 8% and reduced charge declines by 15% via a Smart Dunning system.",
+    "period": "2021-03 – 2022-11",
+    "technologies": ["Python", "SQL", "Redshift", "Pandas", "Scikit-learn", "AWS", "ETL"]
+  },
+  {
+    "entity": "Slingshot Aerospace",
+    "title": "Data and Machine Learning Engineer",
+    "description": "Contributed to 'Orbital Atlas', a real-time space awareness platform improving threat detection accuracy by 2%. Developed Spark-based data acquisition and Python microservices to enhance system scalability and speed. Automated data pipeline routines and implemented testing to improve reliability and reduce runtime.",
+    "period": "2019-03 – 2020-07",
+    "technologies": ["Python", "Spark", "AWS", "Data Pipelines", "Machine Learning", "Testing"]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Portfolio Website",
+    "description": "A personal portfolio to showcase my projects and skills.",
+    "year": "2024",
+    "img": "img/picture-1.jpg",
+    "repository": "https://github.com/yourusername/portfolio",
+    "technologies": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "name": "Login System",
+    "description": "A responsive login page with form validation.",
+    "year": "2023",
+    "img": "img/picture-2.jpg",
+    "repository": "https://github.com/yourusername/login-system",
+    "technologies": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "name": "Code Editor UI",
+    "description": "A mockup of a code editor interface for UI practice.",
+    "year": "2023",
+    "img": "img/picture-3.jpg",
+    "repository": "https://github.com/yourusername/code-editor-ui",
+    "technologies": ["HTML", "CSS"]
+  }
+]

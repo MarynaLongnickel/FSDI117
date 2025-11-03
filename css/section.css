@@ -1,0 +1,208 @@
+/*About Section*/
+.about-section {
+    padding: 2rem;
+}
+
+.about-image-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-image-container img {
+    width: 60%;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+.about-image-container button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #ECF0F1;
+    border: none;
+    border-radius: 5px;
+    font-family: var(--mono-font);
+}
+
+.about-description-container {
+    width: 60%;
+}
+
+.about-description-container p {
+    width: 80%;
+    margin: 1rem 0px;
+}
+
+/*Skills Section*/
+.skills-section {
+    padding: 2rem;
+    margin: 5rem 0px;
+}
+
+.skills-list {
+    width: 50%;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+/*Projects Section*/
+.projects-section {
+    padding: 2rem;
+    margin: 5rem 0px;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 1%;
+}
+
+.project-card {
+    width: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    border-radius: 1%;
+    background-color: #D1F2EB;
+}
+
+.project-card:hover {
+    opacity: 0.8;
+    border: 1px solid var(--secondary-color);
+}
+
+.skills-container {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+a p:nth-child(2), .experience-card p:nth-child(1) {
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin: 0.5rem 0px;
+    display: block;
+}
+
+a p:nth-child(3), .experience-card p:nth-child(2) {
+    font-style: italic;
+}
+
+a p:nth-child(4),  .experience-card p:nth-child(4)  {
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+} 
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+/*Experience Section*/
+.experience-section {
+    padding: 2rem;
+    margin: 5rem 0px;
+}
+
+.experience-card {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    width: 26rem;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    background-color: #D1F2EB;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.experience-list {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+/*Contact Section*/
+.contact-section {
+    padding: 2rem;
+    margin: 5rem 0px;
+    background-color: #0F3D34;  /* darker, muted teal */
+    color: #D0E8E2;  /* softer off-white for contrast */
+}
+
+/*Contact Form*/
+.contact-section h2 {
+  font-size: 2rem;
+  color: #D0E8E2; /* soft off-white */
+  margin-bottom: 2rem;
+  font-family: var(--mono-font);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #145A4D;  /* darker muted green */
+  border: 1px solid #A3D6CC;  /* softer border */
+  border-radius: 5px;
+  padding: 0.8rem 1rem;
+  color: #D0E8E2;
+  font-size: 1rem;
+  resize: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: var(--mono-font);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #28B49E;  /* slightly brighter for focus */
+  box-shadow: 0 0 5px #28B49E;
+}
+
+.contact-form button {
+  background-color: #28B49E;  /* muted teal */
+  color: #0F3D34;
+  font-weight: bold;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: var(--mono-font);
+}
+
+.contact-form button:hover {
+  background-color: #1D8B79;  /* slightly darker on hover */
+}
+
+.contact-links a {
+    color: #ffffff;           /* white text */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+    color: #A3D6CC;           /* subtle muted teal on hover */
+}
+
