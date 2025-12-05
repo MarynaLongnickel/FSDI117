@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,11 +11,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Lobster&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/section.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="{% static './css/base.css' %}">
+    <link rel="stylesheet" href="{% static './css/header.css' %}">
+    <link rel="stylesheet" href="{% static './css/section.css' %}">
+    <link rel="stylesheet" href="{% static './css/footer.css' %}">
+    <link rel="stylesheet" href="{% static './css/responsive.css' %}">
     <title>Maryna Longnickel | Data & Analytics Engineer</title>
 </head>
 
@@ -43,7 +45,7 @@
 
     <section id="about" class="about-section center">
         <div class="about-image-container center">
-            <img src="./img/avatar-img.jpeg" alt="Maryna Longnickel">
+            <img src="{% static './img/avatar-img.jpeg' %}" alt="Maryna Longnickel">
             <a href="assets/Maryna_Longnickel_Resume.pdf" download>
                 <button>Download Full Resume</button>
             </a>
@@ -92,7 +94,7 @@
 
             <div class="project-card">
                 <a href="https://github.com/MarynaLongnickel/dbt-redshift-pipeline" target="_blank">
-                    <img src="./img/picture-1.jpg" alt="DBT Redshift Pipeline">
+                    <img src="{% static './img/picture-1.jpg' %}" alt="DBT Redshift Pipeline">
                     <p><strong>DBT + Redshift Data Pipeline</strong></p>
                     <p>End-to-end data modeling and transformation pipeline using dbt and Redshift with CI/CD and SQLFluff integration.</p>
                     <p>2024</p>
@@ -106,7 +108,7 @@
 
             <div class="project-card">
                 <a href="https://github.com/MarynaLongnickel/tableau-monitoring" target="_blank">
-                    <img src="./img/picture-2.jpg" alt="Tableau Monitoring Automation">
+                    <img src="{% static './img/picture-2.jpg' %}" alt="Tableau Monitoring Automation">
                     <p><strong>Tableau Monitoring Automation</strong></p>
                     <p>Automated dashboard refresh and governance checks for 50+ Tableau workbooks using Python and AWS ECS.</p>
                     <p>2023</p>
@@ -120,7 +122,7 @@
 
             <div class="project-card">
                 <a href="https://github.com/MarynaLongnickel/ml-subscription-forecast" target="_blank">
-                    <img src="./img/picture-3.jpg" alt="Subscription Forecasting Model">
+                    <img src="{% static './img/picture-3.jpg' %}" alt="Subscription Forecasting Model">
                     <p><strong>Subscription Retention ML Model</strong></p>
                     <p>Machine learning model predicting subscription cancellations 30 days in advance to enable proactive retention strategies.</p>
                     <p>2022</p>
